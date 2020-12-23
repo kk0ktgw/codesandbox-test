@@ -12,7 +12,12 @@ const onclickAdd = () => {
   //li生成
   const li = document.createElement("li");
   li.innerText = inputText;
-  console.log(li);
+
+  //divタグの子要素を設定
+  div.appendChild(li);
+
+  //未完了のリストに追加していく
+  document.getElementById("imcomplete-list").appendChild(div);
 };
 
 document
