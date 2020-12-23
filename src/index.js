@@ -12,6 +12,7 @@ const onclickAdd = () => {
   //li生成
   const li = document.createElement("li");
   li.innerText = inputText;
+  console.log(li);
 };
 
 document
